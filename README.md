@@ -521,15 +521,6 @@ Turbolinks emits events that allow you to track the navigation lifecycle and res
 
 * `turbolinks:load` fires once after the initial page load, and again after every Turbolinks visit. Access visit timing metrics with the `event.data.timing` object.
 
-# Contributing to Turbolinks
-
-Turbolinks is open-source software, freely distributable under the terms of an [MIT-style license](LICENSE). The [source code is hosted on GitHub](https://github.com/turbolinks/turbolinks).
-Development is sponsored by [Basecamp](https://basecamp.com/).
-
-We welcome contributions in the form of bug reports, pull requests, or thoughtful discussions in the [GitHub issue tracker](https://github.com/turbolinks/turbolinks/issues).
-
-Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
-
 ## Building From Source
 
 Turbolinks is written in [CoffeeScript](https://github.com/jashkenas/coffee-script) and compiled to JavaScript with [Blade](https://github.com/javan/blade). To build from source you’ll need a recent version of Ruby. From the root of your Turbolinks directory, issue the following commands to build the distributable files in `dist/`:
@@ -555,5 +546,10 @@ $ yarn test
 If you are testing changes to the Turbolinks source, remember to run `bin/blade build` before each test run.
 
 ---
+Guilherme Reis
 
-© 2018 Basecamp, LLC.
+* https://www.worldcode.com.br
+
+![alt text](https://res.cloudinary.com/dgxdamqhe/image/upload/v1545168182/logo_wc_png_irc4l2.png)
+
+© 2018 Worldcode, LLC.
